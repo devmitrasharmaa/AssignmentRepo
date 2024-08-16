@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getMessage",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_message",
+						"type": "string"
+					}
+				],
+				"name": "setMessage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Assignment/q10.sol": "MessageStorage"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Assignment/q10.sol": {
+			"keccak256": "0xb5fcf94ec7ebf6db9fd924e04c0d50a3b5c210006e2d4a16d456c6450428c49e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b635dbd72b6f47232e78ef48b3a678803b2bb780cd6bc0086e2e37b300ab2f24",
+				"dweb:/ipfs/QmZPfHGa9dzMjpcb8bSqRLhocRucA4wfmfvV3k5wVyGVp3"
+			]
+		}
+	},
+	"version": 1
+}

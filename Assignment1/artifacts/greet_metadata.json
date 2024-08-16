@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "greeting",
+						"type": "string"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Assignment/q3.sol": "greet"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Assignment/q3.sol": {
+			"keccak256": "0xab4a64ad1ed5edfeff3e7791ec9d9c567a678f7ee0d7fa798066b478a048e786",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9eaef6a1b17d29a19a60f7c76b5a2a8619c62d902b1d83b7f42ae98dfa7859f9",
+				"dweb:/ipfs/QmZ8mh45vJQLVbRXtUx1zCJAttCqzETbMPBxzvwQS6x2DU"
+			]
+		}
+	},
+	"version": 1
+}
